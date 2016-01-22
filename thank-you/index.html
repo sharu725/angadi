@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -19,7 +22,6 @@
 
 </head>
 
-
 <body>
     <header>
         <section class="color">
@@ -27,32 +29,62 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <h1><i class="fa fa-clock-o" style="color:white"></i></h1>
-                        <h2>Thank you for subscribing to Angadi.xyz</h2>
+                        <h2>Angadi</h2>
+                        <p>The Local Shop
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
     </header>
+    <section class="ss-style-doublediagonal main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>Angadi is coming soon!</h3>
+                    <p>Angadi.xyz is a website where you can buy local, exotic and 'hard to find in market' products!</p>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-12">
 
+                    <div class="countdown"></div>
 
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Subscribe for update</h3>
+                    <form action="//formspree.io/info@dxartist.com" method="post">
+                    <div class="input-group">
+                       
+                        <input type="text" class="form-control" placeholder="Email">
+                        
+                        <input type="hidden" name="_next" value="//thanks-you/" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="submit"><i class="fa fa-check"></i></button>
+                        </span>
+                        
+                    </div>
+                    </form>
+                    <br>
+                    <ul class="list-unstyled list-inline">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="footer">
@@ -68,3 +100,16 @@
             </div>
         </div>
     </section>
+
+
+
+
+    <script>
+        $('.countdown').ClassyCountdown({
+            theme: "red",
+            end: $.now() + 8000000
+        });
+    </script>
+</body>
+
+</html>
