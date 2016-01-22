@@ -41,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h3>Angadi is coming soon!</h3>
+                    <h3>Opening shutters soon!</h3>
                     <p>Angadi.xyz is a website where you can buy local, exotic and 'hard to find in market' products!</p>
                 </div>
             </div>
@@ -57,11 +57,11 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h3>Subscribe for update</h3>
-                    <form action="//formspree.io/info@dxartist.com" method="post">
+                    <form id="formaction" method="post">
                     <div class="input-group">
                        
                         <input type="email" name="_replyto" class="form-control" placeholder="Email">
-                        
+                        <input type="text" name="_gotcha" style="display:none" />
                         <input type="hidden" name="_next" value="http://angadi.xyz/thank-you.html" />
                         <span class="input-group-btn">
                             <button class="btn btn-danger" type="submit"><i class="fa fa-check"></i></button>
@@ -69,6 +69,10 @@
                         
                     </div>
                     </form>
+                    <script>
+    var contactform =  document.getElementById('formaction');
+    contactform.setAttribute('action', '//formspree.io/' + 'info' + '@' + 'dxartist' + '.' + 'com');
+</script>
                     <br>
                     <ul class="list-unstyled list-inline">
                         <li><a href="#"><i class="fa fa-facebook"></i></a>
